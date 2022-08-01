@@ -1,0 +1,8 @@
+   CREATE TABLE AddValue (  
+      ID INT not null auto_increment, 
+      Customer_Id varchar (20) not null,
+      Contact_Id varchar(30),  
+      value1 varchar(50) NOT NULL,  
+      value2 varchar(50) not null,
+      primary key(id)
+    );  
